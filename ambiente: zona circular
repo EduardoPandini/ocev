@@ -1,0 +1,20 @@
+ambiente: zona circular
+
+Parcialmente: as formigas apenas conseguem ver ao ser redor próximo
+
+Estocastico: o ambiente depende de decisões "aleatorias" tomadas por outros agentes
+
+Sequencial: as decisões são tomadas com base na situação atual do 
+cenario, portanto coisas que aconteceram previamente afetam as próximas
+
+dinamico: o conceito é os agentes mudarem o cenário, então claramente o cenario vai mudar
+
+continuo: n sei dizer mas é esse
+
+multiagente: é swarm né porra
+
+
+O QUE INFERNOS É SLA: Service-level agreement -> acordo entre usuario e provedor
+
+1: Metricas para sort: 
+Serviços: 
