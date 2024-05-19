@@ -28,15 +28,12 @@ class Individuo:
             if nova_clausula[0] or nova_clausula[1] or nova_clausula[2]:
                 fit +=1
         self.fitness = fit
-        print(fit)
         if fit ==430:
-            print("430 caralhooooooo")
             print(self.genes)
             print(clausulas)
-            sys.exit()
         if fit > Individuo.maxfit:
             Individuo.maxfit = fit
-            # print(Individuo.maxfit)
+
         return fit
 
     def crossover(self, outro_individuo):
@@ -61,4 +58,7 @@ class Individuo:
             filho = pai1.crossover(pai2)
             filho.mutação(taxa_mutação)
             nova_populacao.append(filho)
-        Individuo.populacao = nova_populacao 
+        return nova_populacao
+        # Individuo.populacao = nova_populacao 
+    def atualiza_pop(pop_send):
+        Individuo.populacao = pop_send
